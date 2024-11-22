@@ -78,6 +78,7 @@ header ul li a {
     border: none;
     border-radius: 8px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .hero-right {
@@ -140,7 +141,7 @@ header ul li a {
     width: 100%;
     background-color: #e5e7eb;
 
-    height: 400px;
+    min-height: 400px;
 
     display: flex;
     justify-content: center;
@@ -162,4 +163,49 @@ header ul li a {
 
 .quote-container span {
     text-align: right;
+}
+
+/* Call To Action */
+
+.call-to-action-container {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-content {
+    background-color: #3882f6;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    min-height: 120px;
+    width: 70%;
+
+    border-radius: 8px;
+
+    color: #fff;
+}
+
+.call-to-action-content div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.call-to-action-content p {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #d8d6d6;
+}
+
+.call-to-action-content button {
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 8px 24px;
+    cursor: pointer;
 }
