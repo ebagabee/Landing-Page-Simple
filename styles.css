@@ -209,3 +209,17 @@ header ul li a {
     padding: 8px 24px;
     cursor: pointer;
 }
+
+/* footer */
+footer {
+    background-color: #1f2937;
+    min-height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    font-size: 12px;
+}
