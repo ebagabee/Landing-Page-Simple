@@ -134,3 +134,32 @@ header ul li a {
     max-width: 150px;
     color: #1f2937;
 }
+
+/* Quote section */
+.quote-container {
+    width: 100%;
+    background-color: #e5e7eb;
+
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    max-width: 47%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote-container i {
+    text-align: left;
+    font-size: 36px;
+    font-weight: light;
+}
+
+.quote-container span {
+    text-align: right;
+}
