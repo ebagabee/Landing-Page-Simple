@@ -89,3 +89,48 @@ header ul li a {
     align-items: center;
     justify-content: center;
 }
+
+/* Some Random Information */
+
+.some-random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.some-random h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.container-some-random {
+    margin-top: 80px;
+    display: flex;
+    gap: 40px;
+}
+
+.container-some-random-item {
+    max-width: 215px;
+    min-height: 215px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    text-align: center;
+}
+
+.square-random-item {
+    width: 100%;
+    height: 100%;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
+}
+
+.container-some-random-item span {
+    max-width: 150px;
+    color: #1f2937;
+}
